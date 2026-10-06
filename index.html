@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data:; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="index,follow">
-<title>Electricista matriculado en Mendoza | Presupuesto sin cargo</title>
+<title>JH Instalaciones y Servicios Eléctricos | Electricidad, gas, plomería y más en Mendoza</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap">
 <style>
 :root{--bg:#0e1116;--bg2:#161b22;--card:#1b222b;--ink:#f3f5f7;--muted:#9aa7b4;--line:#2a3441;--acc:#ffb800;--wa:#1faa59;
@@ -209,7 +209,7 @@ footer.ft{background:var(--glass);backdrop-filter:blur(16px) saturate(150%);-web
 @media(max-width:900px){.fg{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.fg{grid-template-columns:1fr}}
 @media(min-width:820px){footer.ft{padding-bottom:28px}}
-.ft .logo{color:var(--ink);display:inline-block}
+.ft .logo{color:var(--ink)}
 
 /* ===== Hover estable (sin temblor en los bordes) ===== */
 .card:hover,.work:hover,.ct a:hover,.stat:hover,.steps li:hover{transform:scale(1.025)}
@@ -230,9 +230,11 @@ footer.ft{background:var(--glass);backdrop-filter:blur(16px) saturate(150%);-web
 .ci .i{width:24px;height:24px}
 .ci.wa{background:rgba(31,170,89,.18);color:#22c55e}
 .ci.ph{background:rgba(59,130,246,.18);color:#60a5fa}
+.ci.fb{background:rgba(24,119,242,.18);color:#4c9aff}
 .ci.ml,.ci.ac{background:rgba(255,184,0,.16);color:#ffb800}
 :root[data-theme="light"] .ci.wa{color:#15803d}
 :root[data-theme="light"] .ci.ph{color:#2563eb}
+:root[data-theme="light"] .ci.fb{color:#1560d4}
 :root[data-theme="light"] .ci.ml,:root[data-theme="light"] .ci.ac{color:#a86a00}
 .card>.ci{margin-bottom:14px}
 .card:hover>.ci,.ct a:hover .ci{transform:rotate(-8deg) scale(1.12)}
@@ -248,6 +250,24 @@ footer.ft{background:var(--glass);backdrop-filter:blur(16px) saturate(150%);-web
 @keyframes ico{0%,100%{transform:rotate(0)}30%{transform:rotate(-14deg) scale(1.1)}60%{transform:rotate(10deg) scale(1.1)}}
 @media(prefers-reduced-motion:reduce){.btn:hover .i{animation:none}.card:hover>.ci,.ct a:hover .ci{transform:none}}
 
+/* ===== Servicios por categoría ===== */
+.sp[hidden],#subl[hidden]{display:none}
+.stabs button{display:inline-flex;align-items:center;gap:8px}
+.stabs .i{width:20px;height:20px}
+.pr{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 8px;border-radius:99px;background:rgba(255,184,0,.2);color:var(--acc)}
+:root[data-theme="light"] .pr{color:#a86a00}
+.stabs button[aria-pressed="true"] .pr{background:rgba(17,17,17,.15);color:#111}
+.sp .lead{margin:22px 0 0}
+.sp .grid{margin-top:20px}
+@media(max-width:560px){.stabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;margin-inline:-20px;padding-inline:20px;scrollbar-width:none}.stabs button{flex:none}}
+/* ===== Marca JH ===== */
+.logo{display:inline-flex;align-items:center;gap:9px;color:var(--ink)}
+.logo .lm{width:34px;height:34px;flex:none;padding:7px;border-radius:10px;color:#111;background:var(--acc);fill:currentColor;stroke:none;box-shadow:0 6px 18px rgba(255,184,0,.35);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.logo:hover .lm{transform:rotate(-8deg) scale(1.08)}
+.logo .lt{display:block;line-height:1}
+.logo small{white-space:nowrap}
+@media(max-width:520px){.logo{font-size:1.4rem;gap:7px}.logo .lm{width:30px;height:30px;padding:6px}.logo small{font-size:.54rem;letter-spacing:.05em}}
+@media(prefers-reduced-motion:reduce){.logo:hover .lm{transform:none}}
 /* ===== Aparece al entrar / desaparece al salir por arriba ===== */
 .rv{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s,background .35s,color .25s,opacity .7s ease,translate .8s cubic-bezier(.2,.8,.2,1),scale .8s cubic-bezier(.2,.8,.2,1)}
 .js .rv{opacity:0;translate:0 46px;scale:.95}
@@ -276,10 +296,10 @@ nav li a.on{color:var(--ink)}nav li a.on::after{width:100%}
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.setAttribute('data-theme','dark');else document.documentElement.setAttribute('data-theme','light')}catch(e){}</script>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.3-1.3-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z" fill="currentColor" stroke="none"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol><symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol><symbol id="i-panel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h3M8 12h3M8 16h3M14 8h2M14 12h2M14 16h2"/></symbol><symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.7.6 1 1.3 1 2.1h5c0-.8.3-1.5 1-2.1A6 6 0 0 0 12 3z"/></symbol><symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol><symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20M4.9 7l14.2 10M19.1 7 4.9 17"/></symbol><symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></symbol><symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol><symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></symbol></defs></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.3-1.3-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z" fill="currentColor" stroke="none"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol><symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol><symbol id="i-panel" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h3M8 12h3M8 16h3M14 8h2M14 12h2M14 16h2"/></symbol><symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.7.6 1 1.3 1 2.1h5c0-.8.3-1.5 1-2.1A6 6 0 0 0 12 3z"/></symbol><symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol><symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20M4.9 7l14.2 10M19.1 7 4.9 17"/></symbol><symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></symbol><symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol><symbol id="i-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol><symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.4-.5-2-1-3-1.1-2.1-.2-4 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.2.4-2.3 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol><symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></symbol><symbol id="i-hammer" viewBox="0 0 24 24"><path d="m15 12-8.5 8.5a2.1 2.1 0 0 1-3-3L12 9"/><path d="M17.6 15 22 10.6"/><path d="m20.9 11.7-1.3-1.3a3 3 0 0 1-.9-2.2v-.9L16 4.6a5.6 5.6 0 0 0-3.9-1.6H9l.9.8A6.2 6.2 0 0 1 12 8.4V10l2 2h2.5l2.3 1.9"/></symbol><symbol id="i-thermo" viewBox="0 0 24 24"><path d="M14 14.8V3.5a2.5 2.5 0 0 0-5 0v11.3a4.5 4.5 0 1 0 5 0z"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></symbol><symbol id="i-door" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M12 3v18M9 12h.01M15 12h.01"/></symbol><symbol id="i-stairs" viewBox="0 0 24 24"><path d="M4 20h4v-4h4v-4h4V8h4"/></symbol><symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></symbol></defs></svg>
 <div class="orbs" aria-hidden="true"><i></i><i></i><i></i></div>
 <nav><div class="wrap">
-  <a href="#" class="logo">TU MARCA<small>ELECTRICIDAD &amp; SERVICIOS</small></a>
+  <a href="#" class="logo" aria-label="JH Instalaciones y Servicios Eléctricos"><svg class="i lm" aria-hidden="true"><use href="#i-bolt"/></svg><span class="lt">J &amp; H<small>INSTALACIONES &amp; SERVICIOS ELÉCTRICOS</small></span></a>
   <div class="nr"><ul><li><a href="#servicios">Servicios</a></li><li><a href="#trabajos">Trabajos</a></li><li><a href="#nosotros">Por qué elegirme</a></li><li><a class="btn b1" href="#contacto" style="padding:9px 16px">Presupuesto gratis</a></li></ul>
   <button class="tg" id="tg" type="button" aria-label="Cambiar a modo oscuro" title="Cambiar tema">
     <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
@@ -290,27 +310,44 @@ nav li a.on{color:var(--ink)}nav li a.on::after{width:100%}
 </nav>
 
 <header class="hero"><div class="wrap">
-  <span class="eyb"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg>Electricista matriculado N.º 0000</span>
+  <span class="eyb"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg>Electricista matriculado</span>
   <h1>Tu instalación en manos <em>matriculadas</em></h1>
-  <p>Electricista matriculado para hogares, comercios y obras en Gran Mendoza. Trabajo prolijo, precio claro y garantía escrita.</p>
+  <p>Electricidad, gas, plomería, aire acondicionado y metalúrgica para hogares, comercios y obras en Gran Mendoza. Trabajo prolijo, precio claro y garantía escrita.</p>
   <div class="row">
-    <a class="btn bw" href="https://wa.me/5492616943819?text=Hola%2C%20quiero%20un%20presupuesto%20de%20electricidad" target="_blank" rel="noopener noreferrer"><svg class="i" aria-hidden="true"><use href="#i-wa"/></svg>Pedir presupuesto por WhatsApp</a>
+    <a class="btn bw" href="https://wa.me/5492615414229?text=Hola%2C%20quiero%20un%20presupuesto%20de%20electricidad" target="_blank" rel="noopener noreferrer"><svg class="i" aria-hidden="true"><use href="#i-wa"/></svg>Pedir presupuesto por WhatsApp</a>
     <a class="btn b2" href="#trabajos"><svg class="i" aria-hidden="true"><use href="#i-image"/></svg>Ver trabajos</a>
   </div>
 </div></header>
 
 <section id="servicios"><div class="wrap">
-  <h2>Todo lo que necesitás en electricidad</h2>
-  <p class="lead">Desde un enchufe hasta la instalación completa de una obra.</p>
-  <div class="grid">
-    <div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-bolt"/></svg></i><h3>Instalaciones eléctricas</h3><p>Instalaciones nuevas y a refacción para casas, departamentos y locales, con materiales certificados.</p></div>
-    <div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-panel"/></svg></i><h3>Tableros y puesta a tierra</h3><p>Armado y adecuación de tableros, térmicas, disyuntor diferencial y jabalina.</p></div>
-    <div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-wrench"/></svg></i><h3>Reparaciones y urgencias</h3><p>Cortocircuitos, cortes de luz, térmicas que saltan, tomas y llaves que fallan.</p></div>
-    <div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-bulb"/></svg></i><h3>Iluminación</h3><p>Luminarias LED, spots, iluminación exterior, sensores y temporizadores.</p></div>
-    <div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg></i><h3>Certificaciones</h3><p>Mediciones y documentación para habilitar o regularizar tu instalación.</p></div>
-    <div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-snow"/></svg></i><h3>Aire acondicionado y mantenimiento</h3><p>Conexión eléctrica de equipos y mantenimiento periódico para comercios y empresas.</p></div>
+  <h2>Nuestros servicios</h2>
+  <p class="lead">Electricidad es nuestra especialidad, y además resolvemos gas, plomería, aire acondicionado y metalúrgica. Elegí una categoría para ver qué hacemos.</p>
+  <div class="filters stabs" id="stabs" role="group" aria-label="Categorías de servicios"><button type="button" aria-pressed="true" data-c="elec"><svg class="i" aria-hidden="true"><use href="#i-bolt"/></svg>Electricidad<span class="pr">Principal</span></button><button type="button" aria-pressed="false" data-c="gas"><svg class="i" aria-hidden="true"><use href="#i-flame"/></svg>Gas</button><button type="button" aria-pressed="false" data-c="plom"><svg class="i" aria-hidden="true"><use href="#i-drop"/></svg>Plomería</button><button type="button" aria-pressed="false" data-c="aire"><svg class="i" aria-hidden="true"><use href="#i-snow"/></svg>Aire acondicionado</button><button type="button" aria-pressed="false" data-c="metal"><svg class="i" aria-hidden="true"><use href="#i-hammer"/></svg>Metalúrgica</button></div>
+  <div class="sp" data-c="elec" data-name="Electricidad">
+    <p class="lead">Nuestra especialidad: desde un enchufe hasta la instalación completa de una obra.</p>
+    <div class="grid"><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-bolt"/></svg></i><h3>Instalaciones eléctricas</h3><p>Instalaciones nuevas y a refacción para casas, departamentos y locales, con materiales certificados.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-panel"/></svg></i><h3>Tableros y puesta a tierra</h3><p>Armado y adecuación de tableros, térmicas, disyuntor diferencial y jabalina.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-wrench"/></svg></i><h3>Reparaciones y urgencias</h3><p>Cortocircuitos, cortes de luz, térmicas que saltan, tomas y llaves que fallan.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-bulb"/></svg></i><h3>Iluminación</h3><p>Luminarias LED, spots, iluminación exterior, sensores y temporizadores.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg></i><h3>Certificaciones</h3><p>Mediciones y documentación para habilitar o regularizar tu instalación.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg></i><h3>Mantenimiento eléctrico</h3><p>Revisiones periódicas para comercios y empresas, para evitar cortes y fallas.</p></div></div>
+    <div class="row" style="margin-top:28px"><a class="btn b1" href="#contacto" data-pre="Electricidad"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg> Pedir presupuesto de electricidad</a></div>
   </div>
-  <div class="row" style="margin-top:28px"><a class="btn b1" href="#contacto"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg>Pedir presupuesto gratis</a></div>
+  <div class="sp" data-c="gas" data-name="Gas" hidden>
+    <p class="lead">Instalación, conexión y revisión de gas para hogares y comercios.</p>
+    <div class="grid"><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-flame"/></svg></i><h3>Instalaciones de gas</h3><p>Redes nuevas y refacciones de gas natural y envasado.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-wrench"/></svg></i><h3>Conexión de artefactos</h3><p>Cocinas, calefones, estufas y hornos, conectados y probados.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-search"/></svg></i><h3>Detección de pérdidas</h3><p>Revisión de la instalación para encontrar y reparar pérdidas.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-thermo"/></svg></i><h3>Calefacción</h3><p>Estufas, calderas y radiadores: instalación y puesta en marcha.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg></i><h3>Habilitaciones y pruebas</h3><p>Pruebas de hermeticidad y documentación para regularizar tu instalación.</p></div></div>
+    <div class="row" style="margin-top:28px"><a class="btn b1" href="#contacto" data-pre="Gas"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg> Pedir presupuesto de gas</a></div>
+  </div>
+  <div class="sp" data-c="plom" data-name="Plomería" hidden>
+    <p class="lead">Agua, cloacas y sanitarios: instalaciones nuevas y arreglos del día a día.</p>
+    <div class="grid"><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-drop"/></svg></i><h3>Instalaciones de agua y cloacas</h3><p>Cañerías nuevas y refacciones en viviendas, locales y obras.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-wrench"/></svg></i><h3>Destapaciones</h3><p>Desagües, cocinas, baños y cañerías tapadas.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-search"/></svg></i><h3>Pérdidas y filtraciones</h3><p>Localización y reparación de pérdidas de agua.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-box"/></svg></i><h3>Sanitarios y griferías</h3><p>Colocación y cambio de inodoros, bachas, duchas y griferías.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-thermo"/></svg></i><h3>Termotanques y calefones</h3><p>Instalación, cambio y reparación de equipos de agua caliente.</p></div></div>
+    <div class="row" style="margin-top:28px"><a class="btn b1" href="#contacto" data-pre="Plomería"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg> Pedir presupuesto de plomería</a></div>
+  </div>
+  <div class="sp" data-c="aire" data-name="Aire acondicionado" hidden>
+    <p class="lead">Instalación y cuidado de equipos para que rindan todo el año.</p>
+    <div class="grid"><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-snow"/></svg></i><h3>Instalación de equipos</h3><p>Colocación de splits para hogares y comercios.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-wrench"/></svg></i><h3>Mantenimiento y limpieza</h3><p>Limpieza de filtros y unidades para mejor rendimiento y menos consumo.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-thermo"/></svg></i><h3>Reparación y carga de gas</h3><p>Diagnóstico de fallas, recarga de gas y cambio de repuestos.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-bolt"/></svg></i><h3>Conexión eléctrica de equipos</h3><p>Línea y protección eléctrica adecuada para cada equipo.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg></i><h3>Service para comercios y empresas</h3><p>Mantenimiento programado de equipos de uso intensivo.</p></div></div>
+    <div class="row" style="margin-top:28px"><a class="btn b1" href="#contacto" data-pre="Aire acondicionado"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg> Pedir presupuesto de aire acondicionado</a></div>
+  </div>
+  <div class="sp" data-c="metal" data-name="Metalúrgica" hidden>
+    <p class="lead">Trabajos en hierro y chapa, hechos a medida.</p>
+    <div class="grid"><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-grid"/></svg></i><h3>Rejas y protecciones</h3><p>Rejas para puertas y ventanas, y cerramientos de seguridad.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-door"/></svg></i><h3>Portones y puertas</h3><p>Portones, puertas y accesos, a medida.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-stairs"/></svg></i><h3>Escaleras y barandas</h3><p>Escaleras y barandas de hierro para interior y exterior.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-hammer"/></svg></i><h3>Estructuras y soldadura</h3><p>Estructuras livianas, soldaduras y reparaciones.</p></div><div class="card"><i class="ci ac"><svg class="i" aria-hidden="true"><use href="#i-box"/></svg></i><h3>Trabajos a medida</h3><p>Contanos qué necesitás y lo diseñamos y fabricamos.</p></div></div>
+    <div class="row" style="margin-top:28px"><a class="btn b1" href="#contacto" data-pre="Metalúrgica"><svg class="i" aria-hidden="true"><use href="#i-file"/></svg> Pedir presupuesto de metalúrgica</a></div>
+  </div>
 </div></section>
 
 <section id="trabajos" class="alt"><div class="wrap">
@@ -363,16 +400,18 @@ nav li a.on{color:var(--ink)}nav li a.on::after{width:100%}
   <p class="lead">Elegí la forma que prefieras. Te respondo rápido.</p>
   <div class="cgrid">
     <div class="ct">
-      <a href="https://wa.me/5492616943819" target="_blank" rel="noopener noreferrer"><i class="ci wa"><svg class="i" aria-hidden="true"><use href="#i-wa"/></svg></i><div><b>WhatsApp</b><span>Chateá con nosotros · respuesta inmediata</span></div></a>
-      <a href="tel:+5492616943819"><i class="ci ph"><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg></i><div><b>+54 9 261 694-3819</b><span>Llamadas y mensajes</span></div></a>
+      <a href="https://wa.me/5492615414229" target="_blank" rel="noopener noreferrer"><i class="ci wa"><svg class="i" aria-hidden="true"><use href="#i-wa"/></svg></i><div><b>WhatsApp</b><span>Chateá con nosotros · respuesta inmediata</span></div></a>
+      <a href="tel:+5492615414229"><i class="ci ph"><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg></i><div><b>+54 9 261 541-4229</b><span>Llamadas y mensajes</span></div></a>
+      <a href="https://www.facebook.com/profile.php?id=61572435557112" target="_blank" rel="noopener noreferrer"><i class="ci fb"><svg class="i" aria-hidden="true"><use href="#i-fb"/></svg></i><div><b>Facebook</b><span>Seguinos y escribinos por mensaje</span></div></a>
       <a href="mailto:alejobaruja@gmail.com"><i class="ci ml"><svg class="i" aria-hidden="true"><use href="#i-mail"/></svg></i><div><b>alejobaruja@gmail.com</b><span>Respuesta en 24 hs</span></div></a>
-      <div class="card"><h3 class="hh"><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg>Horarios</h3><p style="margin:6px 0 0">Lunes a viernes: 8:00 a 18:00 h<br>Sábados: 9:00 a 13:00 h<br>Urgencias: consultar</p></div>
+      <div class="card"><h3 class="hh"><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg>Horarios</h3><p style="margin:6px 0 0">Atención 24/7<br>Todos los días, las 24 horas</p></div>
     </div>
     <form id="f">
       <label>Nombre completo<input name="n" placeholder="Ej: María Gómez" required autocomplete="name" minlength="2" maxlength="60"></label>
       <label>Teléfono<input name="t" type="tel" placeholder="Ej: 261 123 4567" required autocomplete="tel" inputmode="tel" maxlength="20" pattern="[0-9+()\s\-]{8,20}" title="Solo números, espacios, + ( ) y guiones"></label>
-      <div class="r2"><label>Servicio de interés<select name="s" required><option value="" selected disabled>Elegí un servicio</option><option>Instalación eléctrica</option><option>Tablero y puesta a tierra</option><option>Reparación o urgencia</option><option>Iluminación</option><option>Certificación</option><option>Otro</option></select></label>
+      <div class="r2"><label>Servicio de interés<select name="s" required><option value="" selected disabled>Elegí un servicio</option><option>Electricidad</option><option>Gas</option><option>Plomería</option><option>Aire acondicionado</option><option>Metalúrgica</option><option>Otro</option></select></label>
       <label>Zona<select name="z" required><option value="" selected disabled>Elegí tu zona</option><option>Capital (Ciudad de Mendoza)</option><option>Godoy Cruz</option><option>Guaymallén</option><option>Las Heras</option><option>Luján de Cuyo</option><option>Maipú</option><option>Otra zona de Mendoza</option></select></label></div>
+      <label id="subl" hidden>Qué necesitás<select name="ss" id="ss" disabled><option value="" selected disabled>Elegí el servicio específico</option></select></label>
       <label>Mensaje <span class="opt">(opcional)</span><textarea name="m" rows="3" maxlength="500" placeholder="Contanos qué necesitás…"></textarea></label>
       <div class="hp" aria-hidden="true"><label>No completar<input name="web" tabindex="-1" autocomplete="off"></label></div>
       <label class="chk"><input type="checkbox" name="ok" required><span>Acepto la <button type="button" class="lk pv">política de privacidad</button> y que mis datos se usen para responder mi consulta.</span></label>
@@ -387,8 +426,8 @@ nav li a.on{color:var(--ink)}nav li a.on::after{width:100%}
   <div class="wrap">
     <div class="fg">
       <div class="fb">
-        <a href="#" class="logo">TU MARCA<small>ELECTRICIDAD &amp; SERVICIOS</small></a>
-        <p>Electricista matriculado para todas tus necesidades de instalación, reparación y mantenimiento eléctrico.</p>
+        <a href="#" class="logo" aria-label="JH Instalaciones y Servicios Eléctricos"><svg class="i lm" aria-hidden="true"><use href="#i-bolt"/></svg><span class="lt">J &amp; H<small>INSTALACIONES &amp; SERVICIOS ELÉCTRICOS</small></span></a>
+        <p>Electricidad, gas, plomería, aire acondicionado y metalúrgica: instalación, reparación y mantenimiento para tu hogar o negocio.</p>
       </div>
       <div>
         <h4>Navegación</h4>
@@ -402,15 +441,16 @@ nav li a.on{color:var(--ink)}nav li a.on::after{width:100%}
       <div>
         <h4>Contacto</h4>
         <ul class="fc">
-          <li><a href="tel:+5492616943819"><i class="ib"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></i>+54 9 261 694-3819</a></li>
-          <li><a href="https://wa.me/5492616943819" target="_blank" rel="noopener noreferrer"><i class="ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.3-1.3-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z" fill="currentColor" stroke="none"/></svg></i>WhatsApp</a></li>
+          <li><a href="tel:+5492615414229"><i class="ib"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></i>+54 9 261 541-4229</a></li>
+          <li><a href="https://wa.me/5492615414229" target="_blank" rel="noopener noreferrer"><i class="ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.7-5A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1.3-1.3-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z" fill="currentColor" stroke="none"/></svg></i>WhatsApp</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61572435557112" target="_blank" rel="noopener noreferrer"><i class="ib"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></i>Facebook</a></li>
           <li><a href="mailto:alejobaruja@gmail.com"><i class="ib"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></i>alejobaruja@gmail.com</a></li>
         </ul>
       </div>
     </div>
     <div class="fbar">
-      <span>© 2026 TU MARCA. Todos los derechos reservados.</span>
-      <span class="ok"><i class="ig"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.3 14.3-4-4 1.4-1.4 2.6 2.6 5.2-5.2 1.4 1.4z"/></svg></i>Profesional matriculado N.º 0000</span>
+      <span>© 2026 JH Instalaciones y Servicios Eléctricos. Todos los derechos reservados.</span>
+      <span class="ok"><i class="ig"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.3 14.3-4-4 1.4-1.4 2.6 2.6 5.2-5.2 1.4 1.4z"/></svg></i>Profesional matriculado</span>
     </div>
   </div>
 </footer>
@@ -419,22 +459,33 @@ nav li a.on{color:var(--ink)}nav li a.on::after{width:100%}
 <dialog id="dlg" aria-labelledby="dt">
   <div class="dh"><h3 id="dt">Política de privacidad</h3><button type="button" class="dx" id="dx" aria-label="Cerrar">&times;</button></div>
   <div class="db">
-    <p><b>Responsable:</b> [Tu nombre o razón social], electricista matriculado N.º [0000]. Contacto: alejobaruja@gmail.com.</p>
+    <p><b>Responsable:</b> JH Instalaciones y Servicios Eléctricos, electricista matriculado. Contacto: alejobaruja@gmail.com.</p>
     <p><b>Qué datos pedimos:</b> nombre, teléfono, servicio de interés, zona y el mensaje que escribas en el formulario.</p>
     <p><b>Para qué los usamos:</b> solo para responder tu consulta y enviarte un presupuesto. No los vendemos ni los cedemos a terceros con otros fines.</p>
     <p><b>Dónde van:</b> esta página no guarda ni almacena lo que escribís. Al enviar, se abre WhatsApp con tu mensaje listo para mandar, y el uso de ese servicio se rige por sus propias condiciones.</p>
     <p><b>Cuánto tiempo:</b> los conservamos mientras dure tu consulta o trabajo, y el tiempo que exija la ley.</p>
     <p><b>Tus derechos:</b> podés pedir acceso, rectificación o supresión de tus datos escribiéndonos al email de contacto, según la Ley 25.326 de Protección de Datos Personales de Argentina. La Agencia de Acceso a la Información Pública (AAIP) es el órgano de control y atiende denuncias y reclamos sobre incumplimientos.</p>
+    <p><b>Redes sociales:</b> el enlace a Facebook te lleva a una página externa, que se rige por sus propias condiciones y política de privacidad.</p>
     <p><b>Almacenamiento y terceros:</b> usamos el almacenamiento del navegador solo para recordar si elegiste modo claro u oscuro. Las tipografías se cargan desde Google Fonts, que puede registrar tu dirección IP.</p>
     <p><b>Seguridad:</b> la página se sirve por conexión cifrada (HTTPS) y el formulario valida y limpia lo que escribís antes de enviarlo.</p>
   </div>
   <div class="df"><button type="button" class="btn b1" id="dc"><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Entendido</button></div>
 </dialog>
 <div class="sticky">
-  <a class="btn bw" href="https://wa.me/5492616943819" target="_blank" rel="noopener noreferrer"><svg class="i" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
-  <a class="btn b2" href="tel:+5492616943819"><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg>Llamar</a>
+  <a class="btn bw" href="https://wa.me/5492615414229" target="_blank" rel="noopener noreferrer"><svg class="i" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a class="btn b2" href="tel:+5492615414229"><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg>Llamar</a>
 </div>
 
+<script>
+(function(){
+var tabs=document.getElementById('stabs');
+tabs.addEventListener('click',function(e){
+  var b=e.target.closest('button');if(!b)return;
+  tabs.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+  document.querySelectorAll('.sp').forEach(function(p){p.hidden=p.dataset.c!==b.dataset.c});
+});
+})();
+</script>
 <script>
 document.getElementById('filters').addEventListener('click',function(e){
   var b=e.target.closest('button');if(!b)return;
@@ -444,6 +495,19 @@ document.getElementById('filters').addEventListener('click',function(e){
 });
 (function(){
 var f=document.getElementById('f'),st=document.getElementById('st'),t0=Date.now(),last=0;
+var subSel=document.getElementById('ss'),subLbl=document.getElementById('subl'),panels={};
+document.querySelectorAll('.sp').forEach(function(p){panels[p.dataset.name]=p});
+function syncSub(){
+  var p=panels[f.s.value];
+  while(subSel.options.length>1)subSel.remove(1);
+  subSel.selectedIndex=0;
+  if(!p){subLbl.hidden=true;subSel.disabled=true;subSel.required=false;return}
+  p.querySelectorAll('.card h3').forEach(function(h){var o=document.createElement('option');o.textContent=h.textContent;subSel.appendChild(o)});
+  var o=document.createElement('option');o.textContent='Otro / No estoy seguro';subSel.appendChild(o);
+  subLbl.hidden=false;subSel.disabled=false;subSel.required=true;
+}
+f.s.addEventListener('change',syncSub);
+document.querySelectorAll('[data-pre]').forEach(function(b){b.addEventListener('click',function(){f.s.value=b.dataset.pre;syncSub()})});
 function clean(v,max){return String(v||'').replace(/[\u0000-\u001f\u007f<>`]/g,' ').replace(/\s+/g,' ').trim().slice(0,max)}
 function say(t,err){st.textContent=t;st.className='st'+(err?' err':'')}
 f.addEventListener('submit',function(e){
@@ -452,20 +516,24 @@ f.addEventListener('submit',function(e){
   if(d.get('web'))return;
   if(Date.now()-t0<4000){say('Esperá unos segundos y volvé a enviar.',1);return}
   if(last&&Date.now()-last<30000){say('Ya enviaste una consulta. Esperá 30 segundos para enviar otra.',1);return}
-  var n=clean(d.get('n'),60),tel=clean(d.get('t'),20),sv=clean(d.get('s'),40),z=clean(d.get('z'),40),m=clean(d.get('m'),500);
+  var n=clean(d.get('n'),60),tel=clean(d.get('t'),20),sv=clean(d.get('s'),40),sb=clean(d.get('ss'),60),z=clean(d.get('z'),40),m=clean(d.get('m'),500);
   if(n.length<2||!/^[\p{L}\s'.-]+$/u.test(n)){say('Ingresá un nombre válido (solo letras).',1);return}
   if(!/^[0-9+()\s-]{8,20}$/.test(tel)){say('Ingresá un teléfono válido.',1);return}
   var zs=Array.prototype.map.call(f.z.options,function(o){return o.value||o.text});
   if(!z||zs.indexOf(z)<0){say('Elegí tu zona.',1);return}
   if(!sv){say('Elegí un servicio.',1);return}
+  if(panels[sv]){
+    var sbs=Array.prototype.map.call(subSel.options,function(o){return o.value||o.text});
+    if(!sb||sbs.indexOf(sb)<0){say('Elegí qué servicio específico necesitás.',1);return}
+  }else sb='';
   if(!d.get('ok')){say('Aceptá la política de privacidad para continuar.',1);return}
   last=Date.now();
-  var txt='Hola, soy '+n+' ('+tel+'). Servicio: '+sv+'. Zona: '+z+'.'+(m?' '+m:'');
-  var url='https://wa.me/5492616943819?text='+encodeURIComponent(txt);
+  var txt='Hola, soy '+n+' ('+tel+'). Servicio: '+sv+(sb?' - '+sb:'')+'. Zona: '+z+'.'+(m?' '+m:'');
+  var url='https://wa.me/5492615414229?text='+encodeURIComponent(txt);
   var a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';document.body.appendChild(a);a.click();a.remove();
   say('Abriendo WhatsApp… Si no se abrió, ');
   var l=document.createElement('a');l.href=url;l.target='_blank';l.rel='noopener noreferrer';l.className='lk';l.textContent='tocá acá para abrirlo.';st.appendChild(l);
-  f.reset();
+  f.reset();syncSub();
 });
 var dlg=document.getElementById('dlg');
 function openD(){if(dlg.showModal)dlg.showModal();else dlg.setAttribute('open','')}
