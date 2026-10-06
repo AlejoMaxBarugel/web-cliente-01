@@ -1,0 +1,51 @@
+J & H - Instalaciones y Servicios Electricos
+Carpeta lista para subir a Vercel
+==========================================
+
+ARCHIVOS (todos van en la raiz del sitio, juntos)
+  index.html               La pagina
+  favicon.ico, icon.svg, favicon-32.png     Icono de la pestana del navegador
+  apple-touch-icon.png     Icono al guardar la pagina en el inicio del iPhone/iPad
+  icon-192.png, icon-512.png, icon-maskable-512.png
+                           Iconos para Android / "Instalar" o "Agregar a inicio"
+  site.webmanifest         Datos de nombre, color e iconos para Android
+  og-image.png             Imagen que aparece al compartir el link (WhatsApp, Facebook)
+  robots.txt, sitemap.xml  Para Google (hoy tienen un dominio de ejemplo, ver abajo)
+  configurar-dominio.py    Completa el dominio en todos los archivos
+
+CUANDO TENGAN EL DOMINIO
+  Opcion A (recomendada, requiere Python):
+      python configurar-dominio.py www.midominio.com.ar
+    (sin https:// y sin barra al final; se puede repetir si cambia el dominio)
+    Hace tres cosas: completa sitemap.xml y robots.txt, agrega la direccion
+    canonica en index.html y activa la imagen para compartir en redes.
+
+  Opcion B (a mano, sin Python):
+    1) En sitemap.xml y robots.txt reemplazar TU-DOMINIO.com por el dominio real.
+    2) En index.html, antes de la linea </head>, pegar (con el dominio real):
+         <link rel="canonical" href="https://DOMINIO/">
+         <meta property="og:url" content="https://DOMINIO/">
+         <meta property="og:image" content="https://DOMINIO/og-image.png">
+         <meta property="og:image:width" content="1200">
+         <meta property="og:image:height" content="630">
+         <meta name="twitter:image" content="https://DOMINIO/og-image.png">
+    3) Cambiar  <meta name="twitter:card" content="summary">
+       por      <meta name="twitter:card" content="summary_large_image">
+
+  IMPORTANTE: no publiquen con TU-DOMINIO.com. Un canonical a un dominio que
+  no existe hace que Google ignore la pagina. Por eso esas lineas NO estan en
+  index.html hasta que se configure el dominio.
+
+DESPUES DE PUBLICAR
+  1) Google Search Console: agregar el sitio y enviar  https://DOMINIO/sitemap.xml
+  2) Google Business Profile: crear la ficha como negocio SIN local (direccion
+     oculta) y cargar las zonas de servicio.
+  3) Probar como se ve el link compartido: pegarlo en un chat de WhatsApp.
+     Si no se ve la imagen nueva, WhatsApp/Facebook guardan una copia vieja; se
+     puede refrescar con el depurador de Facebook (Sharing Debugger).
+
+NOTAS
+  - La imagen og-image.png dice "Profesionales matriculados en toda Mendoza" y
+    "Atencion 24/7". Confirmar que sea cierto o avisar para cambiarlo.
+  - Si cambia el logo o el nombre, hay que regenerar los iconos y la imagen.
+  - Los iconos usan la misma figura del logo (rayo sobre cuadrado amarillo).
