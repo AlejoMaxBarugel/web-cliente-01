@@ -33,7 +33,7 @@ bloque = (
     f'<meta property="og:image" content="{base}/og-image.png">\n'
     '<meta property="og:image:width" content="1200">\n'
     '<meta property="og:image:height" content="630">\n'
-    '<meta property="og:image:alt" content="J &amp; H - Instalaciones y Servicios Eléctricos en Mendoza">\n'
+    '<meta property="og:image:alt" content="JH - Instalaciones y Servicios Eléctricos en Mendoza">\n'
     f'<meta name="twitter:image" content="{base}/og-image.png">\n'
     "<!-- dominio:fin -->\n"
 )

@@ -1,4 +1,4 @@
-J & H - Instalaciones y Servicios Electricos
+JH - Instalaciones y Servicios Electricos
 Carpeta lista para subir a Vercel
 ==========================================
 
@@ -48,4 +48,4 @@ NOTAS
   - La imagen og-image.png dice "Profesionales matriculados en toda Mendoza" y
     "Atencion 24/7". Confirmar que sea cierto o avisar para cambiarlo.
   - Si cambia el logo o el nombre, hay que regenerar los iconos y la imagen.
-  - Los iconos usan la misma figura del logo (rayo sobre cuadrado amarillo).
+  - Los iconos usan el logo JH (azul y dorado, con rayo y casa) sobre fondo blanco.
